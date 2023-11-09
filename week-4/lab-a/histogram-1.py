@@ -2,7 +2,6 @@
 
 n = 10
 i = 0
-
 while i < n:
     m = int(input())
     print("*" * m)

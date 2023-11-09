@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 a = []
-s = input()
 
+s = input()
 while s != "end":
     a.append(int(s))
-
     s = input()
 
 i = 0

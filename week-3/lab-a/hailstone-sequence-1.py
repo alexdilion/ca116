@@ -3,7 +3,6 @@
 i = 0
 n = int(input())
 m = int(input())
-
 while i < n:
     print(m)
 

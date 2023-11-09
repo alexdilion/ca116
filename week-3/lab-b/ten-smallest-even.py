@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-i = 0
-smallest_even = 219830921382148
+smallest_even = int(input())
 
+i = 1
 while i < 10:
     n = int(input())
 

@@ -2,7 +2,6 @@
 
 i = 0
 n = int(input())
-
 while i < n:
     print((i + 1) * 2)
     i += 1

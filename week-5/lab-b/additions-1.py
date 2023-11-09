@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 i = 0
-
 while i < 10:
-    j = 0
     s = input()
 
+    j = 0
     while j < len(s) and s[j] != "+":
         j += 1
 

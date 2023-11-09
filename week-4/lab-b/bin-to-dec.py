@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 b = input()
-i = 0
 dec = 0
 
+i = 0
 while i < len(b):
     rev_i = len(b) - i - 1
 

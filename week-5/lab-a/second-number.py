@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
 s = input()
-i = 0
-j = 0
-c = 0
 
+c = 0
+i = 0
 while i < len(s) and c < 2:
     if s[i] >= "0" and s[i] <= "9":
         j = i

@@ -2,15 +2,15 @@
 
 sum = 0
 
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
-sum = sum + int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
+sum += int(input())
 
 print(sum)

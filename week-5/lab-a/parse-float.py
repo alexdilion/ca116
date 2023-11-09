@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 f = input()
-i = 0
 
+i = 0
 while i < len(f) and f[i] != ".":
     i += 1
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-n = int(input())
 total = 0
 
+n = int(input())
 while n != 0:
     total += n
     n = int(input())

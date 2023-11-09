@@ -2,8 +2,8 @@
 
 s = input()
 cap_s = ""
-i = 0
 
+i = 0
 while i < len(s):
     charcode = ord(s[i])
     if s[i] >= "a" and s[i] <= "z":

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 n = input()
-i = 0
 prefix = ""
 
 if n[0] == "-":
     prefix = n[0]
     n = n[1:]
 
+i = 0
 while i < len(n) and n[i] != ".":
     i += 1
 

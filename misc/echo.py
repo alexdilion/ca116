@@ -5,7 +5,6 @@ import sys
 args = sys.argv
 
 i = 0
-
 while i < len(args):
     print(args[i])
     i += 1

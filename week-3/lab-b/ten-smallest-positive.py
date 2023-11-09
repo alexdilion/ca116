@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-i = 0
-smallest = 123210321832103
+smallest = int(input())
 
+i = 1
 while i < 10:
     n = int(input())
 

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-w = input()
-i = 0
+s = input()
 
-while i < len(w) // 2 and (w[i] == w[len(w) - i - 1]):
+i = 0
+while i < len(s) // 2 and (s[i] == s[len(s) - i - 1]):
     i += 1
 
-if i == len(w) // 2:
+if i == len(s) // 2:
     print("palindrome")

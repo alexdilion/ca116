@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-s = input()
 a = []
 
+s = input()
 while s != "end":
     i = 0
-
     while i < len(a) and s != a[i]:
         i += 1
 
@@ -15,7 +14,6 @@ while s != "end":
     s = input()
 
 i = 0
-
 while i < len(a):
     print(a[i])
     i += 1

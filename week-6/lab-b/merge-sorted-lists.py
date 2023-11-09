@@ -2,6 +2,7 @@
 
 # move input to lists a and b
 a, b = [], []
+
 s = input()
 while s != "end":
     a.append(int(s))
@@ -12,7 +13,8 @@ while s != "end":
     b.append(int(s))
     s = input()
 
-i, j = 0, 0
+i = 0
+j = 0
 while i < len(a) and j < len(b):
     if a[i] < b[j]:
         print(a[i])

@@ -2,13 +2,15 @@
 
 n = int(input())
 i = 0
-
 while i < n:
-    if i < n // 2:
-        print(" " * i + "*" + " " * (n - 2 - i * 2) + "*")
-    elif i > n // 2:
-        print(" " * (n - i - 1) + "*" + " " * (n - 2 - (n - i - 1) * 2) + "*")
-    else:
+    dist = i - n // 2
+
+    if dist < 0:
+        dist = -dist
+
+    if i == n // 2:
         print(" " * (n // 2) + "*")
+    else:
+        print(" " * (n // 2 - dist) + "*" + (dist * 2 - 1) * " " + "*")
 
     i += 1

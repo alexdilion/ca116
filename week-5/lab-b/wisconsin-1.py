@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 header = input()
-s = input()
 
+s = input()
 while s != "end":
     i = 0
-
     while s[i] != ",":
         i += 1
 

@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 header = input()
-i = 0
 
+i = 0
 while i < len(header):
     j = i
-
     while j < len(header) and header[j] != ",":
         j += 1
 

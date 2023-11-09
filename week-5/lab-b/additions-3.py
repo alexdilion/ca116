@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-i = 0
 output = 0
 
+i = 0
 while output != 1000:
-    j = 0
     s = input()
 
+    j = 0
     while j < len(s) and s[j] != "+":
         j += 1
 

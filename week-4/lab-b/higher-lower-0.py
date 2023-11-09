@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 prev = int(input())
-
 while prev != 0:
     curr = int(input())
 

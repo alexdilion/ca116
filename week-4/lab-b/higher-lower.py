@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-i = 0
 prev = int(input())
 
+i = 0
 while i < 5:
     curr = int(input())
 

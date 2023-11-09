@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-i = 1
 largest = int(input())
 
+i = 1
 while i < 10:
     n = int(input())
 

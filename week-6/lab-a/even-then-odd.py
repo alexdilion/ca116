@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 odds = []
-s = input()
 
+s = input()
 while s != "end":
     s = int(s)
 
@@ -14,7 +14,6 @@ while s != "end":
     s = input()
 
 i = 0
-
 while i < len(odds):
     print(odds[i])
     i += 1

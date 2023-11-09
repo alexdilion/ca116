@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
 s = input()
-i = 0
-c = 0
 
 day = ""
 date = ""
 month = ""
 year = ""
 
+c = 0
+i = 0
 while i < len(s):
     if s[i] != " " and s[i] != ",":
         j = i

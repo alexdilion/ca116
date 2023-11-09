@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 s = input()
-i = 0
 
+i = 0
 while i < len(s) and not (s[i] >= "A" and s[i] <= "Z"):
     i += 1
 

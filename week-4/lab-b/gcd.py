@@ -2,7 +2,6 @@
 
 a = int(input())
 b = int(input())
-
 while b != 0:
     old_a = a
     old_b = b

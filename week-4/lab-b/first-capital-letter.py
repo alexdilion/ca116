@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 s = input()
-i = 0
-running = True
 
+running = True
+i = 0
 while i < len(s) and running:
     charcode = ord(s[i])
     is_upper = charcode >= 65 and charcode <= 90

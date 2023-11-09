@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 
 a = []
-s = input()
 
+s = input()
 while s != "end":
     a.append(int(s))
     s = input()
 
 i = 0
-
 while i < len(a):
     largest = i
-    j = i
 
+    j = i
     while j < len(a):
         if a[j] > a[largest]:
             largest = j

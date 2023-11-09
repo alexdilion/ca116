@@ -3,6 +3,6 @@
 day = int(input())
 
 if day >= 5:
-  print("weekend")
+    print("weekend")
 else:
-  print("weekday")
+    print("weekday")

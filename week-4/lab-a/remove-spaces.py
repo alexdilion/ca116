@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-s = input()
-i = 0
 ns = ""
 
+s = input()
+i = 0
 while i < len(s):
     if s[i] != " ":
         ns += s[i]

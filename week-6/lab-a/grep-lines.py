@@ -3,13 +3,11 @@
 import sys
 
 p = sys.argv[1]
-
-s = input()
 matches = []
 
+s = input()
 while s != "end":
     i = 0
-
     while i <= len(s) - len(p) and p != s[i:i + len(p)]:
         i += 1
 
@@ -19,7 +17,6 @@ while s != "end":
     s = input()
 
 i = 0
-
 while i < len(matches):
     print(matches[i])
     i += 1
