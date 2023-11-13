@@ -4,39 +4,29 @@ import sys
 
 url = sys.argv[1]
 
-url = url.split("://")
-if len(url) > 1:
-    print("scheme:", url[0])
-    url = url[1]
+print("scheme:", url.split("://")[0])
+url = url.split("://")[1]
+
+host_and_port = url.split("/")[0].split(":")
+print("host:", host_and_port[0])
+
+if len(host_and_port) > 1:
+    print("port:", host_and_port[1])
+
+url = "/".join(url.split("/")[1:])
+query_split = url.split("?")
+
+if len(query_split) > 1:
+    print("path: /" + query_split[0])
+
+    fragment_split = query_split[1].split("#")
+    print("query-string:", fragment_split[0])
+
+    if len(fragment_split) > 1:
+        print("fragment-id:", fragment_split[1])
 else:
-    url = url[0]
+    fragment_split = query_split[0].split("#")
+    print("path: /" + fragment_split[0])
 
-url = url.split(":")
-if len(url) > 1:
-    print("host:", url[0])
-    url = url[1]
-    port = url.split("/")
-    print("port:", port[0])
-    url = "/".join(port[1:])
-else:
-    url = url[0]
-    print("host:", url.split("/")[0])
-    url = "/".join(url.split("/")[1:])
-
-path = url.split("?")
-
-if len(path) > 1:
-    print("path: /" + path[0])
-
-    fragment = path[1].split("#")
-    if len(fragment) > 1:
-        print("query-string:", fragment[0])
-        print("fragment-id:", fragment[1])
-    else:
-        print("query-string:", fragment[0])
-else:
-    fragment = path[0].split("#")
-    print("path: /" + fragment[0])
-
-    if len(fragment) > 1:
-        print("fragment-id:", fragment[1])
+    if len(fragment_split) > 1:
+        print("fragment-id:", fragment_split[1])
