@@ -1,6 +1,6 @@
 # CA116 Work
 
-Includes lab sheets, continuous assessments and some misc stuff
+Includes labsheets, continuous assessments and some misc stuff
 
 ## The topics covered in each labsheet are as follows:
 
