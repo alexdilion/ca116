@@ -2,14 +2,18 @@
 
 import sys
 
-with open("irish-dobs.txt") as f1:
-    dobs = f1.readlines()
-    with open("american-dobs.txt", "w") as f:
-        i = 0
-        while i < len(dobs):
-            dob = dobs[i].split()[0].split("/")
-            new_dob = dob[1] + "/" + dob[0] + "/" + dob[2]
-            output = " ".join([new_dob, " ".join(dobs[i].split()[1:])])
-            f.write(output + "\n")
+with open("irish-dobs.txt") as f:
+    dobs = f.readlines()
 
-            i += 1
+f = open("american-dobs.txt", "w")
+
+i = 0
+while i < len(dobs):
+    dob = dobs[i].split()[0].split("/")
+    new_dob = dob[1] + "/" + dob[0] + "/" + dob[2]
+    output = new_dob + " " + " ".join(dobs[i].split()[1:])
+    f.write(output + "\n")
+
+    i += 1
+
+f.close()

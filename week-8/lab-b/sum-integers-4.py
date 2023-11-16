@@ -4,26 +4,19 @@ import sys
 
 files = sys.argv[1:]
 total = 0
+s = ""
 
 i = 0
 while i < len(files):
     with open(files[i]) as f:
-        a = f.readlines()
-        j = 0
-        while j < len(a):
-            line = a[j]
-            nums = line.split()
+        s += " " + f.read()
 
-            if len(nums) > 1:
-                k = 0
-                while k < len(nums):
-                    total += int(nums[k].strip())
-                    k += 1
-            else:
-                total += int(nums[0].strip())
+    i += 1
 
-            j += 1
-
+s = s.split()
+i = 0
+while i < len(s):
+    total += int(s[i])
     i += 1
 
 print(total)
