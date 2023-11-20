@@ -2,26 +2,22 @@
 
 import sys
 
-name_a = sys.argv[1]
-name_b = sys.argv[2]
+f1 = sys.argv[1]
+f2 = sys.argv[2]
 
-with open(name_a) as fa:
-    sa = fa.read()
-    with open(name_b) as fb:
-        sb = fb.read()
+with open(f1) as f:
+    data_a = f.read()
 
-        if len(sa) > len(sb):
-            tmp = sa
-            sa = sb
-            sb = tmp
+with open(f2) as f:
+    data_b = f.read()
 
-        i = 0
-        while i < len(sa) and sa[i] == sb[i]:
-            i += 1
-
-        s = sa[:i]
-        line = len(s.split("\n")) - 1
-        col = i - len("\n".join(s.split("\n")[:line])) - 1
-
-        if i < len(sb):
-            print(line, col)
+i = 0
+while i < len(data_a) and i < len(data_b) and data_a[i] == data_b[i]:
+    i += 1
+    
+if i < len(data_a) or i < len(data_b):
+    equal = data_a[:i]
+    line = len(equal.split("\n")) - 1
+    column = len(equal.split("\n")[line])
+    
+    print(line, column)
