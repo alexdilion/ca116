@@ -20,7 +20,7 @@ while i < len(counts):
 
 i = 0
 while i < height:
-    s = " |"
+    s = " | "
     j = 0
     while j < len(counts):
         if counts[j] >= height - i:
@@ -28,9 +28,9 @@ while i < height:
         else:
             s += " "
 
-        j += 1    
+        j += 1
 
-    print(s)
+    print(s.rstrip())
     i += 1
 
 print(" " + "-" * 23)

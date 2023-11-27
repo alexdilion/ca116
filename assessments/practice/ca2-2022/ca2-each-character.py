@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import sys
+with open("characters.txt") as f:
+    s = f.read()
 
-s = sys.stdin.read()
 i = 0
 while i < len(s):
     if s[i] == "\n":
