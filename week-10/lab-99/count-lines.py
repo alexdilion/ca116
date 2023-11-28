@@ -23,8 +23,10 @@ while i < len(lines[1]):
     while j < len(lines[0]):
         offset = int(lines[1][i]) - int(lines[0][j])
         other_x = str(int(lines[1][i]) + offset) + "-2"
+
         if other_x in points:
             total += 1
+
         j += 1
 
     i += 1
