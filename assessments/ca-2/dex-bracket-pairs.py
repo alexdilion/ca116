@@ -34,6 +34,6 @@ while i < len(lines):
     if error:
         print(error)
     elif stack:
-        print(str(i) + " " + str(stack[len(stack) - 1][1]))
+        print(str(i) + " " + str(stack.pop()[1]))
 
     i += 1
