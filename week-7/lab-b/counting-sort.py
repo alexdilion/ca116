@@ -9,7 +9,7 @@ while s != "end":
 
 i = 0
 while i < len(a):
-    if a[i] != 0:
+    if a[i] != 0:
         print(i)
 
         a[i] -= 1

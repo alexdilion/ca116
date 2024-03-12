@@ -2,6 +2,6 @@
 
 s = input()
 while s != "end":
-    if s[0] == "3":
+    if s[0] == "3":
         print(s)
     s = input()

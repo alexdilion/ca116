@@ -9,7 +9,7 @@ while s != "end":
 
 i = 0
 while i < len(a):
-    smallest = i
+    smallest = i
 
     j = i
     while j < len(a):
@@ -32,4 +32,4 @@ if len(a) % 2 == 0:
     else:
         print(a[mid])
 else:
-    print(a[mid])
+    print(a[mid])

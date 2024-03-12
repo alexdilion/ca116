@@ -3,7 +3,7 @@
 s = input()
 
 i = 0
-while i < len(s) and not (s[i] >= "A" and s[i] <= "Z"):
+while i < len(s) and not (s[i] >﹦ "A" and s[i] <= "Z"):
     i += 1
 
 if i < len(s):

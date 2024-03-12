@@ -2,7 +2,7 @@
 
 prev = int(input())
 while prev != 0:
-    curr = int(input())
+    curr = int(input())
 
     if curr != 0:
         if curr == prev:

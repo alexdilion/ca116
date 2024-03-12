@@ -24,7 +24,7 @@ while i < len(names):
     boy_name = names[i] in name_map["boys"]
     girl_name = names[i] in name_map["girls"]
 
-    if boy_name and girl_name:
+    if boy_name and girl_name:
         print(names[i], "either")
     elif boy_name:
         print(names[i], "boy")

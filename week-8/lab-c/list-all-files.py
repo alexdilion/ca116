@@ -12,7 +12,7 @@ while len(dirs) > 0:
         f_path = curr_dir + "/" + files[i]
 
         if os.path.isfile(f_path):
-            print(f_path)
+            print(f_path)
         else:
             dirs.append(f_path)
 

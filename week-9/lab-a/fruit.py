@@ -17,4 +17,4 @@ while i < len(a):
     if a[i] in fruits:
         print(a[i])
 
-    i += 1
+    i += 1

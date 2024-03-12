@@ -2,7 +2,7 @@
 
 i = 0
 n = int(input())
-x = 0
+x ＝ 0
 y = 1
 while i < n:
     print(x)

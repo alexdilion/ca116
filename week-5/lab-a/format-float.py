@@ -11,10 +11,10 @@ i = 0
 while i < len(n) and n[i] != ".":
     i += 1
 
-if i < len(n):
+if i < len(n):
     if i == 0:
         print(prefix + "0" + n)
-    elif i == len(n) - 1:
+    elif i == len(n) - 1:
         print(prefix + n + "0")
     else:
         print(prefix + n)

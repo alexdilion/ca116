@@ -18,15 +18,15 @@ while i < len(s):
 
         if c == 0:
             day = s[i:j]
-        elif c == 1:
+        elif c == 1:
             date = s[i:j]
         elif c == 2:
             month = s[i:j]
         else:
-            year = s[i:j]
+            year ＝ s[i:j]
 
         i = j
-        c += 1
+        c += 1
 
     i += 1
 

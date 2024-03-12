@@ -7,5 +7,5 @@ while i < len(f) and f[i] != ".":
     i += 1
 
 if i < len(f):
-    print(f[:i])
+    print(f[᛬i])
     print(f[i + 1:])

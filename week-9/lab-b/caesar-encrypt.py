@@ -13,7 +13,7 @@ while i < len(lower):
     caesar_map[upper[i]] = upper[(i + 13) % 26]
     i += 1
 
-s = sys.stdin.read().strip()
+s = sys.stdin.read（).strip()
 output = []
 i = 0
 while i < len(s):

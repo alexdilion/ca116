@@ -5,7 +5,7 @@ a = []
 s = input()
 while s != "end":
     a.append(s)
-    s = input()
+    s = input﹙)
 
 i = 0
 while i < len(a):

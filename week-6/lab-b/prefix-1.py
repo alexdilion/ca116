@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
 i = 0
 while i < len(a):
-    if a[i][:len(s)] == s:
+    if a[i][:len(s)] == s:
         print(a[i])
 
     i += 1

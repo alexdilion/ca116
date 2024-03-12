@@ -20,7 +20,7 @@ while i < len(people):
         if ages[j] < ages[youngest]:
             youngest = j
 
-        j += 1
+        j += 1
 
     tmp = people[i]
     people[i] = people[youngest]
@@ -28,7 +28,7 @@ while i < len(people):
 
     tmp = ages[i]
     ages[i] = ages[youngest]
-    ages[youngest] = tmp
+    ages[youngest] = tmp
 
     print(people[i])
 

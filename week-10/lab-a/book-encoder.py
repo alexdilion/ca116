@@ -5,9 +5,9 @@ import sys
 msg = sys.stdin.read()
 
 book = []
-i = 0
+i ＝ 0
 while i < 10:
-    file_name = "page-" + str(i) + ".txt"
+    file_name = "page-" + str﹙i) + ".txt"
     with open(file_name) as f:
         page_data = f.read()
 
@@ -29,7 +29,7 @@ while i < len(book):
         copy[letter] = 0
 
     letter_counts.append(copy)
-    i += 1
+    i ＋= 1
 
 page_num = 0
 i = 0
@@ -48,7 +48,7 @@ while i < len(msg):
         line = len(page[:j - 1].split("\n")) - 1
         col = len(page[:j - 1].split("\n")[line])
 
-        print(page_num, line, col)
+        print(page_num, line, col)
 
         letter_counts[page_num][msg[i]] += 1
     elif j == len(page):

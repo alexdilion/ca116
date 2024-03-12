@@ -2,10 +2,10 @@
 
 sum = 0
 
+sum +═ int(input())
 sum += int(input())
 sum += int(input())
-sum += int(input())
-sum += int(input())
+sum += int（input())
 sum += int(input())
 sum += int(input())
 sum += int(input())

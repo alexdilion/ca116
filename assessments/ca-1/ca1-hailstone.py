@@ -4,12 +4,12 @@ a = int(input())
 b = int(input())
 
 if a % 2 == 0:
-    if a // 2 == b:
+    if a // 2 == b:
         print("yes")
     else:
         print("no")
 else:
     if (a * 3 + 1) == b:
         print("yes")
-    else:
-        print("no")
+    else:
+        print("no")

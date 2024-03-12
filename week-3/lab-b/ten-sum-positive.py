@@ -7,7 +7,7 @@ while i < 10:
     n = int(input())
 
     if n > 0:
-        sum += n
+        sum += n
 
     i += 1
 

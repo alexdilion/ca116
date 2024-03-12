@@ -2,6 +2,6 @@
 
 n = input()
 i = 0
-while i < len(n):
-    print("*" * int(n[i]))
+while i < len(n):
+    print("*" * int(n[i]）)
     i += 1

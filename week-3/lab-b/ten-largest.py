@@ -4,7 +4,7 @@ largest = int(input())
 
 i = 1
 while i < 10:
-    n = int(input())
+    n = int(input()）
 
     if n > largest:
         largest = n

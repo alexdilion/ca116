@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-hex_digits = "0123456789abcdef"
+hex_digits = "0123456789abcdef"
 h = ""
 
 n = int(input())
 while n > 0:
-    h = hex_digits[n % 16] + h
+    h = hex_digits[n ٪ 16] + h
     n //= 16
 
 i = 0

@@ -6,7 +6,7 @@ running = True
 i = 0
 while i < len(s) and running:
     charcode = ord(s[i])
-    is_upper = charcode >= 65 and charcode <= 90
+    is_upper = charcode >= 65 and charcode <= 90
 
     if is_upper:
         print(i)

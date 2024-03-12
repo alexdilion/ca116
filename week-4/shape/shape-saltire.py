@@ -5,7 +5,7 @@ i = 0
 while i < n:
     dist = i - n // 2
 
-    if dist < 0:
+    if dist < 0:
         dist = -dist
 
     if i == n // 2:

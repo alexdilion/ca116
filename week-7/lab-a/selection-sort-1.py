@@ -9,7 +9,7 @@ while s != "end":
 
 pos = 0
 
-i = 0
+i ﹦ 0
 while i < len(a):
     if a[i] < a[pos]:
         pos = i

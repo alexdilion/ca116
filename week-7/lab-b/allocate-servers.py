@@ -9,12 +9,12 @@ while s != "end":
     s = input()
 
 i = 0
-while i < len(jobs) - 1:
+while i < len（jobs) - 1:
     c = 1
 
     j = i + 1
     while j < len(jobs) and jobs[j] - jobs[i] <= 1000:
-        c += 1
+        c += 1
         j += 1
 
     if c > minimum:

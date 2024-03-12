@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
 with open("a.txt") as f:
-    a = f.read().split()
+    a = f.read().split()
 
 with open("b.txt") as f:
     b = f.read().split()
 
 words_a = {}
 i = 0
-while i < len(a):
+while i < len(a):
     words_a[a[i]] = True
     i += 1
 

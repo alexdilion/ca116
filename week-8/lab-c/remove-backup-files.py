@@ -4,7 +4,7 @@ import os
 
 files = os.listdir(".")
 
-i = 0
+i = 0
 while i < len(files):
     is_file = os.path.isfile(files[i])
 

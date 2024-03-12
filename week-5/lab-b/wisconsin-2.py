@@ -5,7 +5,7 @@ header = input()
 c = 0
 s = input()
 while s != "end":
-    i = 0
+    i = 0
     while s[i] != ",":
         i += 1
 

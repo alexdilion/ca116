@@ -8,9 +8,9 @@ while line != "end":
 
 lines = " ".join(s.split()).split(".")
 
-i = 0
+i = 0
 while i < len(lines):
     if lines[i] != "":
         print(lines[i].lstrip() + ".")
 
-    i += 1
+    i += 1

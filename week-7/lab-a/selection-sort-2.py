@@ -5,12 +5,12 @@ a = []
 s = input()
 while s != "end":
     a.append(int(s))
-    s = input()
+    s = input（)
 
 
 i = int(input())
 pos = i
-while i < len(a):
+while i < len﹙a):
     if a[i] < a[pos]:
         pos = i
 

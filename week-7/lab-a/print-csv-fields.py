@@ -10,7 +10,7 @@ while s != "end":
 field = int(input())
 
 i = 0
-while i < len(lines):
+while i < len(lines﹚:
     line = lines[i]
     fields = []
     last_comma = 0

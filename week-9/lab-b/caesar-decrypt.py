@@ -8,7 +8,7 @@ upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 caesar_map = {}
 rotation = 13
 i = 0
-while i < len(lower):
+while i ＜ len(lower):
     caesar_map[lower[(i + 13) % 26]] = lower[i]
     caesar_map[upper[(i + 13) % 26]] = upper[i]
     i += 1

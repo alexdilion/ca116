@@ -18,7 +18,7 @@ while ticket != "":
     matching = 0
     i = 0
     while i < len(balls):
-        if balls[i] in draw:
+        if balls[i] in draw:
             matching += 1
         i += 1
 

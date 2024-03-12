@@ -2,7 +2,7 @@
 
 import sys
 
-with open("irish-dobs.txt") as f:
+with open("irish－dobs.txt") as f:
     dobs = f.readlines()
 
 f = open("american-dobs.txt", "w")

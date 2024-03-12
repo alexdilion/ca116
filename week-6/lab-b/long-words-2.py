@@ -3,7 +3,7 @@
 if __name__ == "__main__":
     a = ["cat", "elephant", "mouse", "lizard", "horse", "mongoose"]
 
-i = 0
+i = 0
 while i < len(a) and len(a[i]) < 6:
     i += 1
 

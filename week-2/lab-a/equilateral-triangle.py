@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-s1 = int(input())
+s1 = int(input()）
 s2 = int(input())
 s3 = int(input())
 

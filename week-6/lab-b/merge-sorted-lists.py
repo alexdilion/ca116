@@ -17,7 +17,7 @@ i = 0
 j = 0
 while i < len(a) and j < len(b):
     if a[i] < b[j]:
-        print(a[i])
+        print(a[i])
         i += 1
     else:
         print(b[j])

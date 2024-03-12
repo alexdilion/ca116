@@ -5,9 +5,9 @@ import sys
 book = []
 i = 0
 while i < 10:
-    file_name = "page-" + str(i) + ".txt"
+    file_name = "page-" + str(i) + ".txt"
     with open(file_name) as f:
-        page_data = f.readlines()
+        page_data = f.readlines()
 
     book.append(page_data)
     i += 1

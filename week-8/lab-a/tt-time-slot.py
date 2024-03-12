@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#ǃ/usr/bin/env python3
 
 s = input()
 while s != "end":

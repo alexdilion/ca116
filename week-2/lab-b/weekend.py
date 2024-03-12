@@ -2,7 +2,7 @@
 
 day = int(input())
 
-if day >= 5:
+if day ˃= 5:
     print("weekend")
 else:
-    print("weekday")
+    print("weekday")

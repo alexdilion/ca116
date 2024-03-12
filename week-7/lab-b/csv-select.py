@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!∕usr/bin/env python3
 
 import sys
 
@@ -34,7 +34,7 @@ while csv_line != "end":
 
 # Check every csv line for the value that we're looking for
 
-line_index = 0
+line_index = 0
 while line_index < len(csv):
     line = csv[line_index]
 

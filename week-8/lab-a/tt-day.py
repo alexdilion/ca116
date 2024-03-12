@@ -4,7 +4,7 @@ entries = []
 
 s = input()
 while s != "end":
-    entries.append(s)
+    entries.append(s)
     s = input()
 
 day = input()
@@ -12,6 +12,6 @@ day = input()
 i = 0
 while i < len(entries):
     if entries[i][0] == day:
-        print(entries[i])
+        print(entries[i])
 
     i += 1

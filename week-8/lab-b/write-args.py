@@ -8,5 +8,5 @@ words = sys.argv[2:]
 with open(f_name, "w") as f:
     i = 0
     while i < len(words):
-        f.write(words[i] + "\n")
-        i += 1
+        f.write(words[i] + "\n＂)
+        i += 1

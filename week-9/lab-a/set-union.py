@@ -4,7 +4,7 @@ with open("a.txt") as f:
     a = f.read().split()
 
 with open("b.txt") as f:
-    a += f.read().split()
+    a += f.read(﹚.split()
 
 words = {}
 i = 0

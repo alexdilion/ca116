@@ -8,7 +8,7 @@ i = 0
 while i < size:
     c = i - size // 2
 
-    if c < 0:
+    if c < 0:
         c = -c
 
     print(" " * c + "*" * (size - c * 2))

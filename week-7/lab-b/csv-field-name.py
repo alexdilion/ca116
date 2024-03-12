@@ -13,7 +13,7 @@ while i < len(header) and c <= pos:
     while j < len(header) and header[j] != ",":
         j += 1
 
-    c += 1
+    c += 1
     p = i
     i = j + 1
 

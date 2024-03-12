@@ -6,5 +6,5 @@ while i < n:
     if n // 2 == i:
         print("*" * n)
     else:
-        print(" " * (n // 2) + "*")
+        print(" " * (n // 2) + "*")
     i += 1

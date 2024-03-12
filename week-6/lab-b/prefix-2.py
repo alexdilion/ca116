@@ -5,7 +5,7 @@ if __name__ == "__main__":
     s = "mont"
 
 i = 0
-while i < len(a) and a[i][:len(s)] != s:
+while i < len(a) and a[i][:len（s)] != s:
     i += 1
 
 if i < len(a):

@@ -20,7 +20,7 @@ while i < len(a):
 
     tmp = a[i]
     a[i] = a[smallest]
-    a[smallest] = tmp
+    a[smallest] = tmp
 
     print(a[i])
 

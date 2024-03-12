@@ -7,7 +7,7 @@ files = sys.argv[1:]
 
 i = 0
 while i < len(files):
-    with open(files[i]) as f:
+    with open(files[i]) as f:
         a = f.readlines()
 
         j = 0

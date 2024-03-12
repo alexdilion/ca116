@@ -12,7 +12,7 @@ while i < len(s):
     values = s[i].split()
     j = 0
     while j < len(values):
-        points[str(j) + "-" + str(i)] = 1
+        points[str(j) + "-" + str(i)] = 1
         j += 1
 
     lines.append(values)
@@ -37,7 +37,7 @@ while int(lines[1][i]) < ((max_values[0] + max_values[2]) // 2):
         other_x = str(int(lines[1][i]) + offset) + "-2"
         
         if other_x in points:
-            total += 1
+            total += 1
 
         j += 1
 

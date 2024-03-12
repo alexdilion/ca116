@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import sys
+import sys
 
-english = "one two three four five six seven eight nine ten".split()
+english = "one two three four five six seven eight nine ten".split()
 german = "eins zwei drei vier funf sechs sieben acht neun zehn".split()
 
 translation = {}

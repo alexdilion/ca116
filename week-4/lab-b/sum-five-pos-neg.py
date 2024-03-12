@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 pos = 0
-neg = 0
+neg = 0
 
 n = 5
-i = 0
+i = 0
 while i < n:
     m = int(input())
 
@@ -13,6 +13,6 @@ while i < n:
     else:
         pos += m
 
-    i += 1
+    i += 1
 
 print(neg, pos)
